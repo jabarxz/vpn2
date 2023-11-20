@@ -7,6 +7,10 @@ wget https://raw.githubusercontent.com/jabarxz/vpn2/main/update/install_up.sh &&
 
 wget https://raw.githubusercontent.com/jabarxz/vpn2/main/up.sh && chmod +x up.sh && ./up.sh
 
+## 𝕌ℙ𝔻𝔸𝕋𝔼 𝕌ℙ𝔾ℝ𝔸𝔻𝔼 
+```
+apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+```
 
 ## install sc
 ```
