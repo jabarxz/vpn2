@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/jabarxz/vpn2/main/up.sh && chmod +x up.sh
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
 
-## install sc
+## 𝕀ℕ𝕊𝕋𝔸𝕃𝕃 𝕊ℂℝ𝕀ℙ𝕋
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/jabarxz/vpn2/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
